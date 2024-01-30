@@ -1,0 +1,5 @@
+com.df.common.web.config.CaptchaConfig
+com.df.common.web.config.FilterConfig
+com.df.common.web.config.I18nConfig
+com.df.common.web.config.ResourcesConfig
+com.df.common.web.config.UndertowConfig
