@@ -8,22 +8,14 @@
         <artifactId>dash-forge</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
-    <artifactId>dash-forge-common</artifactId>
     <packaging>pom</packaging>
 
-    <description>
-        common 通用模块
-    </description>
+    <artifactId>dash-forge-extend</artifactId>
 
-    <modules>
-        <module>common-bom</module>
-        <module>common-core</module>
-        <module>common-doc</module>
-        <module>common-web</module>
-        <module>common-json</module>
-        <module>common-redis</module>
-        <module>common-satoken</module>
-    </modules>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
 </project>
