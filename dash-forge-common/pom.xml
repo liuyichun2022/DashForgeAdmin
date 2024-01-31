@@ -22,6 +22,8 @@
         <module>common-doc</module>
         <module>common-web</module>
         <module>common-json</module>
+        <module>common-redis</module>
+        <module>common-satoken</module>
     </modules>
 
 </project>
