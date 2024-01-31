@@ -312,6 +312,7 @@
     <modules>
         <module>dash-forge-admin</module>
         <module>dash-forge-common</module>
+        <module>dash-forge-modules</module>
     </modules>
     <packaging>pom</packaging>
 
