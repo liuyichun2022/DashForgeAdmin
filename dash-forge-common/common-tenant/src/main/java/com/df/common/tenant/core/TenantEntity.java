@@ -1,6 +1,6 @@
 package com.df.common.tenant.core;
 
-import org.dromara.common.mybatis.core.domain.BaseEntity;
+import com.df.common.mybatis.core.domain.BaseEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

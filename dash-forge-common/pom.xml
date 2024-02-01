@@ -24,6 +24,8 @@
         <module>common-json</module>
         <module>common-redis</module>
         <module>common-satoken</module>
+        <module>common-log</module>
+        <module>common-tenant</module>
     </modules>
 
 </project>
