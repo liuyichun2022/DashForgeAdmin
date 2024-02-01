@@ -27,6 +27,7 @@
         <module>common-log</module>
         <module>common-tenant</module>
         <module>common-encrypt</module>
+        <module>common-mybatis</module>
     </modules>
 
 </project>
