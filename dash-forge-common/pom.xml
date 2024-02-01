@@ -26,6 +26,7 @@
         <module>common-satoken</module>
         <module>common-log</module>
         <module>common-tenant</module>
+        <module>common-encrypt</module>
     </modules>
 
 </project>
