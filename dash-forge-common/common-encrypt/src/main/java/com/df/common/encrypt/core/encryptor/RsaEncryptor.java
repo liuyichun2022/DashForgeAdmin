@@ -1,6 +1,6 @@
 package com.df.common.encrypt.core.encryptor;
 
-import org.dromara.common.core.utils.StringUtils;
+import com.df.common.core.utils.StringUtils;
 import com.df.common.encrypt.core.EncryptContext;
 import com.df.common.encrypt.enumd.AlgorithmType;
 import com.df.common.encrypt.enumd.EncodeType;

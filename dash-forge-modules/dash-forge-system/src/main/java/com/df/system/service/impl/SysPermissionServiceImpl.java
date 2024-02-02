@@ -1,8 +1,8 @@
 package com.df.system.service.impl;
 
+import com.df.common.core.constant.TenantConstants;
+import com.df.common.satoken.utils.LoginHelper;
 import com.df.system.service.ISysPermissionService;
-import org.dromara.common.core.constant.TenantConstants;
-import org.dromara.common.satoken.utils.LoginHelper;
 import com.df.system.service.ISysMenuService;
 import com.df.system.service.ISysRoleService;
 import lombok.RequiredArgsConstructor;

@@ -1,13 +1,12 @@
 package com.df.system.domain.bo;
 
+import com.df.common.mybatis.core.domain.BaseEntity;
 import com.df.system.domain.SysDictData;
 import io.github.linpeilie.annotations.AutoMapper;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.dromara.common.mybatis.core.domain.BaseEntity;
 
 /**
  * 字典数据业务对象 sys_dict_data

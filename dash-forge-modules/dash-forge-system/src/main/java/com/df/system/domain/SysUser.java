@@ -1,7 +1,7 @@
 package com.df.system.domain;
 
 import com.baomidou.mybatisplus.annotation.*;
-import org.dromara.common.core.constant.UserConstants;
+import com.df.common.core.constant.UserConstants;
 import com.df.common.tenant.core.TenantEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

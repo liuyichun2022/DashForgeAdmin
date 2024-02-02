@@ -1,10 +1,10 @@
 package com.df.system.controller.system;
 
+import com.df.common.core.domain.R;
+import com.df.common.satoken.utils.LoginHelper;
+import com.df.common.web.core.BaseController;
 import com.df.system.domain.vo.SysSocialVo;
 import lombok.RequiredArgsConstructor;
-import org.dromara.common.core.domain.R;
-import org.dromara.common.satoken.utils.LoginHelper;
-import org.dromara.common.web.core.BaseController;
 import com.df.system.service.ISysSocialService;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;

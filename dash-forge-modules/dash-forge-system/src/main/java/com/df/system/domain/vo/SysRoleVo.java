@@ -2,8 +2,8 @@ package com.df.system.domain.vo;
 
 import com.alibaba.excel.annotation.ExcelIgnoreUnannotated;
 import com.alibaba.excel.annotation.ExcelProperty;
+import com.df.common.core.constant.UserConstants;
 import com.df.system.domain.SysRole;
-import org.dromara.common.core.constant.UserConstants;
 import org.dromara.common.excel.annotation.ExcelDictFormat;
 import org.dromara.common.excel.convert.ExcelDictConvert;
 import io.github.linpeilie.annotations.AutoMapper;

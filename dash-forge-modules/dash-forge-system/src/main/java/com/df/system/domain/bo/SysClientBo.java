@@ -1,9 +1,9 @@
 package com.df.system.domain.bo;
 
+import com.df.common.core.validate.AddGroup;
+import com.df.common.core.validate.EditGroup;
+import com.df.common.mybatis.core.domain.BaseEntity;
 import com.df.system.domain.SysClient;
-import org.dromara.common.mybatis.core.domain.BaseEntity;
-import org.dromara.common.core.validate.AddGroup;
-import org.dromara.common.core.validate.EditGroup;
 import io.github.linpeilie.annotations.AutoMapper;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

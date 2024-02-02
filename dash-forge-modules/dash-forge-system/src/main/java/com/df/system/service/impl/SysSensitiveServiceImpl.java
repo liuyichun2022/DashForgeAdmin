@@ -1,5 +1,10 @@
 package com.df.system.service.impl;
 
+import cn.dev33.satoken.stp.StpUtil;
+import com.df.common.core.utils.StringUtils;
+import com.df.common.satoken.utils.LoginHelper;
+import com.df.common.tenant.helper.TenantHelper;
+import org.dromara.common.sensitive.core.SensitiveService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -11,12 +16,12 @@ import org.springframework.stereotype.Service;
  * @version 3.6.0
  */
 @Service
-public class SysSensitiveServiceImpl  {
+public class SysSensitiveServiceImpl implements SensitiveService {
 
     /**
      * 是否脱敏
      */
-   /* @Override
+    @Override
     public boolean isSensitive(String roleKey, String perms) {
         if (!LoginHelper.isLogin()) {
             return true;
@@ -37,6 +42,6 @@ public class SysSensitiveServiceImpl  {
             return !LoginHelper.isSuperAdmin() && !LoginHelper.isTenantAdmin();
         }
         return !LoginHelper.isSuperAdmin();
-    }*/
+    }
 
 }

@@ -1,11 +1,11 @@
 package com.df.system.domain;
 
 import com.baomidou.mybatisplus.annotation.*;
+import com.df.common.mybatis.core.domain.BaseEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import java.io.Serial;
 
-import org.dromara.common.mybatis.core.domain.BaseEntity;
 
 /**
  * 租户套餐对象 sys_tenant_package
