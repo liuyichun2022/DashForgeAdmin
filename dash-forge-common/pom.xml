@@ -23,11 +23,20 @@
         <module>common-web</module>
         <module>common-json</module>
         <module>common-redis</module>
-        <module>common-satoken</module>
+        <module>common-saToken</module>
         <module>common-log</module>
         <module>common-tenant</module>
         <module>common-encrypt</module>
         <module>common-mybatis</module>
+        <module>common-social</module>
+        <module>common-websocket</module>
+        <module>common-sms</module>
+        <module>common-sensitive</module>
+        <module>common-mail</module>
+        <module>common-rateLimiter</module>
+        <module>common-excel</module>
+        <module>common-idempotent</module>
+        <module>common-oss</module>
     </modules>
 
 </project>

@@ -3,10 +3,6 @@ package com.df.system.domain.vo;
 import com.df.system.domain.SysUser;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.dromara.common.sensitive.annotation.Sensitive;
-import org.dromara.common.sensitive.core.SensitiveStrategy;
-import org.dromara.common.translation.annotation.Translation;
-import org.dromara.common.translation.constant.TransConstant;
 import io.github.linpeilie.annotations.AutoMapper;
 import lombok.Data;
 
@@ -61,13 +57,13 @@ public class SysUserVo implements Serializable {
     /**
      * 用户邮箱
      */
-    @Sensitive(strategy = SensitiveStrategy.EMAIL)
+    //@Sensitive(strategy = SensitiveStrategy.EMAIL)
     private String email;
 
     /**
      * 手机号码
      */
-    @Sensitive(strategy = SensitiveStrategy.PHONE)
+    //@Sensitive(strategy = SensitiveStrategy.PHONE)
     private String phonenumber;
 
     /**
@@ -78,7 +74,7 @@ public class SysUserVo implements Serializable {
     /**
      * 头像地址
      */
-    @Translation(type = TransConstant.OSS_ID_TO_URL)
+    //@Translation(type = TransConstant.OSS_ID_TO_URL)
     private Long avatar;
 
     /**

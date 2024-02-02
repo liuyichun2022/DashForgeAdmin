@@ -1,0 +1,12 @@
+2024-02-01 16:25:46 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-02-01 16:25:46 [main] INFO  com.df.DashForgeApplication - Starting DashForgeApplication using Java 17.0.9 with PID 20260 (D:\data\code\my-works\DashForgeAdmin\dash-forge-admin\target\classes started by Administrator in D:\data\code\my-works\DashForgeAdmin)
+2024-02-01 16:25:46 [main] INFO  com.df.DashForgeApplication - The following 1 profile is active: "dev"
+2024-02-01 16:25:58 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2024-02-01 16:25:59 [main] INFO  c.d.common.json.config.JacksonConfig - 初始化 jackson 配置
+2024-02-01 16:26:00 [main] INFO  io.undertow - starting server: Undertow - 2.3.10.Final
+2024-02-01 16:26:00 [main] INFO  org.xnio - XNIO version 3.8.8.Final
+2024-02-01 16:26:00 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+2024-02-01 16:26:00 [main] INFO  org.jboss.threads - JBoss Threads version 3.5.0.Final
+2024-02-01 16:26:00 [main] INFO  com.df.DashForgeApplication - Started DashForgeApplication in 15.407 seconds (process running for 16.671)
+2024-02-01 16:48:33 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.3.10.Final
+2024-02-01 16:48:33 [SpringApplicationShutdownHook] INFO  c.d.c.core.config.ThreadPoolConfig - ====关闭后台任务任务线程池====

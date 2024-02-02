@@ -1,8 +1,9 @@
 package com.df.system.domain.bo;
 
+import com.df.common.core.validate.AddGroup;
+import com.df.common.core.validate.EditGroup;
+import com.df.common.mybatis.core.domain.BaseEntity;
 import com.df.system.domain.SysTenant;
-import org.dromara.common.core.validate.AddGroup;
-import org.dromara.common.core.validate.EditGroup;
 import io.github.linpeilie.annotations.AutoMapper;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -10,7 +11,6 @@ import jakarta.validation.constraints.*;
 
 import java.util.Date;
 
-import org.dromara.common.mybatis.core.domain.BaseEntity;
 
 /**
  * 租户业务对象 sys_tenant

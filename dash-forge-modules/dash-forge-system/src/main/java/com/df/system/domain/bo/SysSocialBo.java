@@ -1,5 +1,7 @@
 package com.df.system.domain.bo;
 
+import com.df.common.core.validate.AddGroup;
+import com.df.common.core.validate.EditGroup;
 import com.df.system.domain.SysSocial;
 import io.github.linpeilie.annotations.AutoMapper;
 import jakarta.validation.constraints.NotBlank;
@@ -7,8 +9,6 @@ import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import org.dromara.common.core.validate.AddGroup;
-import org.dromara.common.core.validate.EditGroup;
 import com.df.common.tenant.core.TenantEntity;
 
 /**

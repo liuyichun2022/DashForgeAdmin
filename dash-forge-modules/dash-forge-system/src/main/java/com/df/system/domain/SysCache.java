@@ -1,6 +1,6 @@
 package com.df.system.domain;
 
-import org.dromara.common.core.utils.StringUtils;
+import com.df.common.core.utils.StringUtils;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
