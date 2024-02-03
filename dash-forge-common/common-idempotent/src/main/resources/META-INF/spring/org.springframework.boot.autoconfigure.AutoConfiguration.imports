@@ -1,1 +1,1 @@
-config.com.df.common.idempotent.IdempotentConfig
+com.df.common.idempotent.config.IdempotentConfig

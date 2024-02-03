@@ -1,8 +1,8 @@
 package com.df.system.domain.vo;
 
 import com.alibaba.excel.annotation.ExcelProperty;
-import org.dromara.common.excel.annotation.ExcelDictFormat;
-import org.dromara.common.excel.convert.ExcelDictConvert;
+import com.df.common.excel.annotation.ExcelDictFormat;
+import com.df.common.excel.convert.ExcelDictConvert;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
