@@ -9,6 +9,9 @@
         <version>${revision}</version>
     </parent>
     <packaging>pom</packaging>
+    <modules>
+        <module>dash-forge-job</module>
+    </modules>
 
     <artifactId>dash-forge-extend</artifactId>
 

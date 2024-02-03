@@ -340,3 +340,286 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-02-03 10:16:43 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-02-03 10:16:43 [main] INFO  com.df.DashForgeApplication - Starting DashForgeApplication using Java 17.0.9 with PID 7308 (D:\data\code\my-works\DashForgeAdmin\dash-forge-admin\target\classes started by Administrator in D:\data\code\my-works\DashForgeAdmin)
+2024-02-03 10:16:43 [main] INFO  com.df.DashForgeApplication - The following 1 profile is active: "dev"
+2024-02-03 10:16:51 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2024-02-03 10:16:51 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2024-02-03 10:16:51 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2024-02-03 10:16:52 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@60c8909a
+2024-02-03 10:16:52 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2024-02-03 10:16:52 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2024-02-03 10:16:52 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2024-02-03 10:16:55 [main] INFO  c.d.common.json.config.JacksonConfig - 初始化 jackson 配置
+2024-02-03 10:16:56 [main] INFO  c.df.common.redis.config.RedisConfig - 初始化 redis 配置
+2024-02-03 10:16:56 [main] INFO  org.redisson.Version - Redisson 3.24.3
+2024-02-03 10:16:56 [redisson-netty-2-6] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.100.122/192.168.100.122:6379
+2024-02-03 10:16:57 [redisson-netty-2-3] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.100.122/192.168.100.122:6379
+2024-02-03 10:17:00 [main] INFO  io.undertow - starting server: Undertow - 2.3.10.Final
+2024-02-03 10:17:00 [main] INFO  org.xnio - XNIO version 3.8.8.Final
+2024-02-03 10:17:00 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+2024-02-03 10:17:00 [main] INFO  org.jboss.threads - JBoss Threads version 3.5.0.Final
+2024-02-03 10:17:00 [main] INFO  com.df.DashForgeApplication - Started DashForgeApplication in 17.627 seconds (process running for 18.433)
+2024-02-03 10:17:00 [main] INFO  o.d.c.w.l.WebSocketTopicListener - 初始化WebSocket主题订阅监听器成功
+2024-02-03 10:17:00 [main] INFO  c.d.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2024-02-03 10:17:01 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=dash-forge, managementUrl=http://192.168.65.136:8081/actuator, healthUrl=http://192.168.65.136:8081/actuator/health, serviceUrl=http://192.168.65.136:8081/) at spring-boot-admin ([http://localhost:9090/admin/instances]): I/O error on POST request for "http://localhost:9090/admin/instances": Failed to connect to localhost/[0:0:0:0:0:0:0:1]:9090. Further attempts are logged on DEBUG level
+2024-02-03 10:27:17 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.3.10.Final
+2024-02-03 10:34:21 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-02-03 10:34:21 [main] INFO  com.df.DashForgeApplication - Starting DashForgeApplication using Java 17.0.9 with PID 8184 (D:\data\code\my-works\DashForgeAdmin\dash-forge-admin\target\classes started by Administrator in D:\data\code\my-works\DashForgeAdmin)
+2024-02-03 10:34:21 [main] INFO  com.df.DashForgeApplication - The following 1 profile is active: "dev"
+2024-02-03 10:34:31 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2024-02-03 10:34:31 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2024-02-03 10:34:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2024-02-03 10:34:32 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@767cc126
+2024-02-03 10:34:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2024-02-03 10:34:32 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2024-02-03 10:34:32 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2024-02-03 10:34:34 [main] INFO  c.d.common.json.config.JacksonConfig - 初始化 jackson 配置
+2024-02-03 10:34:35 [main] INFO  c.df.common.redis.config.RedisConfig - 初始化 redis 配置
+2024-02-03 10:34:35 [main] INFO  org.redisson.Version - Redisson 3.24.3
+2024-02-03 10:34:35 [redisson-netty-2-6] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.100.122/192.168.100.122:6379
+2024-02-03 10:34:35 [redisson-netty-2-3] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.100.122/192.168.100.122:6379
+2024-02-03 10:34:41 [main] INFO  io.undertow - starting server: Undertow - 2.3.10.Final
+2024-02-03 10:34:41 [main] INFO  org.xnio - XNIO version 3.8.8.Final
+2024-02-03 10:34:41 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+2024-02-03 10:34:42 [main] INFO  org.jboss.threads - JBoss Threads version 3.5.0.Final
+2024-02-03 10:34:42 [main] INFO  com.df.DashForgeApplication - Started DashForgeApplication in 22.211 seconds (process running for 23.118)
+2024-02-03 10:34:42 [main] INFO  o.d.c.w.l.WebSocketTopicListener - 初始化WebSocket主题订阅监听器成功
+2024-02-03 10:34:42 [main] INFO  c.d.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2024-02-03 10:34:43 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=dash-forge, managementUrl=http://192.168.65.136:8081/actuator, healthUrl=http://192.168.65.136:8081/actuator/health, serviceUrl=http://192.168.65.136:8081/) at spring-boot-admin ([http://localhost:9090/admin/instances]): I/O error on POST request for "http://localhost:9090/admin/instances": Failed to connect to localhost/[0:0:0:0:0:0:0:1]:9090. Further attempts are logged on DEBUG level
+2024-02-03 10:37:02 [XNIO-1 task-2] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-03 10:37:02 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/user/getInfo],无参数
+2024-02-03 10:37:04 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/user/getInfo],耗时:[1593]毫秒
+2024-02-03 10:37:04 [XNIO-1 task-2] ERROR io.undertow.request - UT005023: Exception handling request to /system/user/getInfo
+jakarta.servlet.ServletException: Request processing failed: java.lang.NullPointerException: Cannot invoke "com.df.common.core.domain.model.LoginUser.getUserId()" because "loginUser" is null
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at com.df.common.web.filter.RepeatableFilter.doFilter(RepeatableFilter.java:30)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForJakartaServlet.doFilter(SaPathCheckFilterForJakartaServlet.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at com.df.common.web.filter.XssFilter.doFilter(XssFilter.java:42)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at com.df.common.encrypt.filter.CryptoFilter.doFilter(CryptoFilter.java:75)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:276)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:132)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:256)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:101)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:393)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:859)
+	at org.jboss.threads.ContextHandler$1.runWith(ContextHandler.java:18)
+	at org.jboss.threads.EnhancedQueueExecutor$Task.run(EnhancedQueueExecutor.java:2513)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1512)
+	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1282)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.NullPointerException: Cannot invoke "com.df.common.core.domain.model.LoginUser.getUserId()" because "loginUser" is null
+	at com.df.system.controller.system.SysUserController.getInfo(SysUserController.java:111)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:141)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.df.system.controller.system.SysUserController$$SpringCGLIB$$0.getInfo(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	... 68 common frames omitted
+2024-02-03 10:37:04 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /error],无参数
+2024-02-03 10:37:04 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /error],耗时:[365]毫秒
+2024-02-03 10:37:04 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[POST /auth/logout],无参数
+2024-02-03 10:37:05 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[POST /auth/logout],耗时:[145]毫秒
+2024-02-03 10:37:05 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /auth/code],无参数
+2024-02-03 10:37:05 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /auth/tenant/list],无参数
+2024-02-03 10:37:05 [XNIO-1 task-3] INFO  c.d.c.r.aspectj.RateLimiterAspect - 限制令牌 => 10, 剩余令牌 => 9, 缓存key => 'global:rate_limit:/auth/code:0:0:0:0:0:0:0:1:'
+2024-02-03 10:37:05 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /auth/tenant/list],耗时:[237]毫秒
+2024-02-03 10:37:06 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /auth/code],耗时:[1155]毫秒
+2024-02-03 10:37:11 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[POST /auth/login],参数类型[json],参数:[{"tenantId":"000000","username":"admin","password":"admin123","rememberMe":false,"uuid":"2fd59da4ce3f47639426ae1d07bc07e3","code":"8","clientId":"e5cd7e4891bf95d1d19206ce24a7b32e","grantType":"password"}]
+2024-02-03 10:37:12 [schedule-pool-1] INFO  c.d.s.s.i.SysLogininforServiceImpl - [0:0:0:0:0:0:0:1]内网IP[admin][Success][user.login.success]
+2024-02-03 10:37:12 [XNIO-1 task-3] INFO  c.df.web.listener.UserActionListener - user doLogin, userId:sys_user:1, token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJzeXNfdXNlcjoxIiwicm5TdHIiOiJEWEVaYzBUdjN1d2ZSQjdyZEJRUUkzcFlnZ3g4UnlBNCIsImNsaWVudGlkIjoiZTVjZDdlNDg5MWJmOTVkMWQxOTIwNmNlMjRhN2IzMmUiLCJ0ZW5hbnRJZCI6IjAwMDAwMCIsInVzZXJJZCI6MSwiZGVwdElkIjoxMDN9.2bz5IVhl83IucPs2bmMjM6L_bNDsVgZ0oArDG4nRd4w
+2024-02-03 10:37:12 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[POST /auth/login],耗时:[1359]毫秒
+2024-02-03 10:37:12 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/user/getInfo],无参数
+2024-02-03 10:37:12 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/user/getInfo],耗时:[392]毫秒
+2024-02-03 10:37:13 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/menu/getRouters],无参数
+2024-02-03 10:37:13 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/menu/getRouters],耗时:[135]毫秒
+2024-02-03 10:37:14 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /auth/tenant/list],无参数
+2024-02-03 10:37:14 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /auth/tenant/list],耗时:[111]毫秒
+2024-02-03 10:37:15 [schedule-pool-1] WARN  o.d.c.websocket.utils.WebSocketUtils - [send] session会话已经关闭
+2024-02-03 10:37:20 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/sys_normal_disable],无参数
+2024-02-03 10:37:20 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/role/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 10:37:21 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/sys_normal_disable],耗时:[319]毫秒
+2024-02-03 10:37:21 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/role/list],耗时:[589]毫秒
+2024-02-03 10:37:58 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/tenant/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 10:37:59 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/tenant/list],耗时:[340]毫秒
+2024-02-03 10:37:59 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/tenant/package/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 10:37:59 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/tenant/package/list],耗时:[87]毫秒
+2024-02-03 10:38:01 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/sys_device_type],无参数
+2024-02-03 10:38:02 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /monitor/online/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 10:38:02 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/sys_device_type],耗时:[166]毫秒
+2024-02-03 10:38:03 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /monitor/cache],无参数
+2024-02-03 10:38:03 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /monitor/cache],耗时:[103]毫秒
+2024-02-03 10:38:04 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /monitor/online/list],耗时:[2730]毫秒
+2024-02-03 10:38:33 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /tool/gen/getDataNames],无参数
+2024-02-03 10:38:33 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /tool/gen/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 10:38:33 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /tool/gen/getDataNames],耗时:[2]毫秒
+2024-02-03 10:38:33 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /error],无参数
+2024-02-03 10:38:33 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /tool/gen/list],耗时:[5]毫秒
+2024-02-03 10:38:33 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /error],耗时:[2]毫秒
+2024-02-03 10:38:33 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /error],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 10:38:33 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /error],耗时:[1]毫秒
+2024-02-03 10:44:55 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/sys_user_sex],无参数
+2024-02-03 10:44:55 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/user/deptTree],无参数
+2024-02-03 10:44:55 [XNIO-1 task-5] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/config/configKey/sys.user.initPassword],无参数
+2024-02-03 10:44:55 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/user/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 10:44:55 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/sys_user_sex],耗时:[148]毫秒
+2024-02-03 10:44:56 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/user/list],耗时:[199]毫秒
+2024-02-03 10:44:56 [XNIO-1 task-5] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/config/configKey/sys.user.initPassword],耗时:[481]毫秒
+2024-02-03 10:44:56 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/user/deptTree],耗时:[494]毫秒
+2024-02-03 10:45:11 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/tenant/dynamic/000000],无参数
+2024-02-03 10:45:11 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/tenant/dynamic/000000],耗时:[24]毫秒
+2024-02-03 10:45:12 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/tenant/dynamic/clear],无参数
+2024-02-03 10:45:12 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/tenant/dynamic/clear],耗时:[43]毫秒
+2024-02-03 10:45:14 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/tenant/dynamic/000000],无参数
+2024-02-03 10:45:14 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/tenant/dynamic/000000],耗时:[48]毫秒
+2024-02-03 10:45:15 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/tenant/dynamic/clear],无参数
+2024-02-03 10:45:15 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/tenant/dynamic/clear],耗时:[35]毫秒
+2024-02-03 10:45:17 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/tenant/dynamic/000000],无参数
+2024-02-03 10:45:17 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/tenant/dynamic/000000],耗时:[46]毫秒
+2024-02-03 10:45:19 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/tenant/dynamic/clear],无参数
+2024-02-03 10:45:19 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/tenant/dynamic/clear],耗时:[60]毫秒
+2024-02-03 10:46:22 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.3.10.Final
+2024-02-03 10:46:22 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-02-03 10:46:22 [SpringApplicationShutdownHook] INFO  c.d.c.core.config.ThreadPoolConfig - ====关闭后台任务任务线程池====
+2024-02-03 10:46:22 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2024-02-03 10:46:22 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2024-02-03 10:47:35 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-02-03 10:47:35 [main] INFO  com.df.DashForgeApplication - Starting DashForgeApplication using Java 17.0.9 with PID 912 (D:\data\code\my-works\DashForgeAdmin\dash-forge-admin\target\classes started by Administrator in D:\data\code\my-works\DashForgeAdmin)
+2024-02-03 10:47:35 [main] INFO  com.df.DashForgeApplication - The following 1 profile is active: "dev"
+2024-02-03 10:47:44 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2024-02-03 10:47:44 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2024-02-03 10:47:44 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2024-02-03 10:47:45 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@57fc6759
+2024-02-03 10:47:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2024-02-03 10:47:45 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2024-02-03 10:47:45 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2024-02-03 10:47:47 [main] INFO  c.d.common.json.config.JacksonConfig - 初始化 jackson 配置
+2024-02-03 10:47:48 [main] INFO  c.df.common.redis.config.RedisConfig - 初始化 redis 配置
+2024-02-03 10:47:48 [main] INFO  org.redisson.Version - Redisson 3.24.3
+2024-02-03 10:47:48 [redisson-netty-2-7] INFO  o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 192.168.100.122/192.168.100.122:6379
+2024-02-03 10:47:49 [redisson-netty-2-3] INFO  o.r.c.pool.MasterConnectionPool - 8 connections initialized for 192.168.100.122/192.168.100.122:6379
+2024-02-03 10:47:52 [main] INFO  io.undertow - starting server: Undertow - 2.3.10.Final
+2024-02-03 10:47:52 [main] INFO  org.xnio - XNIO version 3.8.8.Final
+2024-02-03 10:47:52 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+2024-02-03 10:47:52 [main] INFO  org.jboss.threads - JBoss Threads version 3.5.0.Final
+2024-02-03 10:47:53 [main] INFO  com.df.DashForgeApplication - Started DashForgeApplication in 18.994 seconds (process running for 19.858)
+2024-02-03 10:47:53 [main] INFO  o.d.c.w.l.WebSocketTopicListener - 初始化WebSocket主题订阅监听器成功
+2024-02-03 10:47:53 [main] INFO  c.d.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2024-02-03 10:47:53 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=dash-forge, managementUrl=http://192.168.65.136:8081/actuator, healthUrl=http://192.168.65.136:8081/actuator/health, serviceUrl=http://192.168.65.136:8081/) at spring-boot-admin ([http://localhost:9090/admin/instances]): I/O error on POST request for "http://localhost:9090/admin/instances": Failed to connect to localhost/[0:0:0:0:0:0:0:1]:9090. Further attempts are logged on DEBUG level
+2024-02-03 10:47:58 [XNIO-1 task-4] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-03 10:47:58 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/config/configKey/sys.user.initPassword],无参数
+2024-02-03 10:47:58 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/user/deptTree],无参数
+2024-02-03 10:47:58 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/user/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 10:48:00 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/config/configKey/sys.user.initPassword],耗时:[1313]毫秒
+2024-02-03 10:48:00 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/user/deptTree],耗时:[1313]毫秒
+2024-02-03 10:48:00 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/user/list],耗时:[1521]毫秒
+2024-02-03 10:48:00 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/role/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 10:48:00 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/role/list],耗时:[322]毫秒
+2024-02-03 11:09:52 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/sys_show_hide],无参数
+2024-02-03 11:09:52 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/menu/list],无参数
+2024-02-03 11:09:52 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/menu/list],耗时:[194]毫秒
+2024-02-03 11:09:52 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/sys_show_hide],耗时:[319]毫秒
+2024-02-03 11:10:06 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dept/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 11:10:06 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dept/list],耗时:[132]毫秒
+2024-02-03 11:10:07 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/post/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 11:10:07 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/post/list],耗时:[140]毫秒
+2024-02-03 11:10:13 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/type/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 11:10:14 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/type/list],耗时:[289]毫秒
+2024-02-03 11:10:18 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/type/1],无参数
+2024-02-03 11:10:18 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/type/optionselect],无参数
+2024-02-03 11:10:18 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/type/1],耗时:[89]毫秒
+2024-02-03 11:10:19 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/type/optionselect],耗时:[108]毫秒
+2024-02-03 11:10:19 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"],"dictType":["sys_user_sex"]}]
+2024-02-03 11:10:19 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/list],耗时:[100]毫秒
+2024-02-03 11:12:02 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/sys_notice_status],无参数
+2024-02-03 11:12:02 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/sys_notice_type],无参数
+2024-02-03 11:12:02 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/notice/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 11:12:02 [XNIO-1 task-4] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/sys_notice_type],耗时:[260]毫秒
+2024-02-03 11:12:02 [XNIO-1 task-3] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/sys_notice_status],耗时:[270]毫秒
+2024-02-03 11:12:02 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/notice/list],耗时:[264]毫秒
+2024-02-03 11:12:12 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/tenant/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 11:12:12 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/tenant/list],耗时:[114]毫秒
+2024-02-03 11:12:13 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/tenant/package/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 11:12:13 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/tenant/package/list],耗时:[61]毫秒
+2024-02-03 11:12:15 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /monitor/online/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2024-02-03 11:12:17 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /monitor/online/list],耗时:[1893]毫秒
+2024-02-03 11:12:17 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /monitor/cache],无参数
+2024-02-03 11:12:17 [XNIO-1 task-2] INFO  c.d.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /monitor/cache],耗时:[95]毫秒
+2024-02-03 13:42:40 [master housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - master - Thread starvation or clock leap detected (housekeeper delta=7m52s6ms15µs200ns).
