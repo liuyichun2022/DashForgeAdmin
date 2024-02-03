@@ -33,7 +33,108 @@
                 <version>${revision}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-encrypt</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-excel</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-idempotent</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-json</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-log</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-mail</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-mybatis</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-oss</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-rateLimiter</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-redis</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-saToken</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-sensitive</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-sms</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-social</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-tenant</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-web</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.df</groupId>
+                <artifactId>common-websocket</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

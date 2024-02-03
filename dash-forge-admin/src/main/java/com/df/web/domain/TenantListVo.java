@@ -1,8 +1,8 @@
 package com.df.web.domain;
 
+import com.df.system.domain.vo.SysTenantVo;
 import io.github.linpeilie.annotations.AutoMapper;
 import lombok.Data;
-import org.dromara.system.domain.vo.SysTenantVo;
 
 /**
  * 租户列表

@@ -1,1 +1,1 @@
-config.com.df.common.ratelimiter.RateLimiterConfig
+com.df.common.ratelimiter.config.RateLimiterConfig

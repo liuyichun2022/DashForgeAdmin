@@ -10,6 +10,13 @@
 
     <name>Dash-Forge</name>
     <description>dash-forge 多租户管理系统</description>
+    <packaging>pom</packaging>
+    <modules>
+        <module>dash-forge-admin</module>
+        <module>dash-forge-common</module>
+        <module>dash-forge-extend</module>
+        <module>dash-forge-modules</module>
+    </modules>
 
     <properties>
         <revision>1.0-SNAPSHOT</revision>
@@ -308,14 +315,6 @@
 
         </dependencies>
     </dependencyManagement>
-
-    <modules>
-        <module>dash-forge-admin</module>
-        <module>dash-forge-common</module>
-        <module>dash-forge-modules</module>
-        <module>dash-forge-extend</module>
-    </modules>
-    <packaging>pom</packaging>
 
     <build>
         <plugins>
